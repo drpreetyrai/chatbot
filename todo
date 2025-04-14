@@ -1,3 +1,24 @@
+
+pip install nltk 
+
+
+
+python3 -m venv venv
+. venv/bin/activate
+
+
+pip install torch 
+pip install numpt 
+
+
+
+python 
+import nltk 
+nltk.download('punkt') 
+
+
+
+
 python3 -m venv venv
 . venv/bin/activate
 
@@ -8,4 +29,13 @@ pip install Flask torch torchvision nltk
 python 
 import nltk 
 nltk.download('punkt') 
+
+
+
+1) Theory + NLP concepts (stemming, tokenization, bag of words) 
+2.) Create training data 
+3.) PyTorch model and training 
+4.) Save/Load model and implement the chat.
+
+
 
